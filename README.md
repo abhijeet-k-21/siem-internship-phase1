@@ -53,6 +53,8 @@ siem-internship-phase-1/
 
 ├── /screenshots/                  # Screenshots of setup and events
 
+├── /sysmonconfig/                 #sysmonconfig-v2.xml
+
 ├── writeups/
 
 └── README.md                      # Documentation
