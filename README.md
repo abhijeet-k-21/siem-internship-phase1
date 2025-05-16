@@ -28,7 +28,7 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 4. Ran the following command to install Sysmon with the config file:
    Sysmon64.exe -accepteula -i sysmonconfig-v2.xml
    
-5.Confirmed successful installation and verified the Sysmon service is running.
+ 5.Confirmed successful installation and verified the Sysmon service is running.
 
 🔹 2. Log Collection via Event Viewer
 Opened:
@@ -57,6 +57,7 @@ siem-internship-phase-1/
 ├── /screenshots/         # Screenshots of setup and events
 ├── writeups/
 └── README.md             # Documentation
+
 🧠 Learning Outcomes
 Understood the purpose and setup of Sysmon.
 
