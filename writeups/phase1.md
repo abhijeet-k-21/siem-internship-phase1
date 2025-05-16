@@ -18,7 +18,10 @@ Navigated to Event Viewer > Windows Logs > Security and observed the following E
 - **4672** - Special privileges assigned to new logon
 
 ## 🖼️ Screenshot:
-![Sysmon-logs-Screenshot](../screenshots/sysmon-logs.png,sysmon-logss.png,sysmon-logs1.png,sysmon-logs2.png)
+![Sysmon-logs-Screenshot](../screenshots/sysmon-logs.png)
+![Sysmon-logs-Screenshot](../screenshots/sysmon-logss.png)
+![Sysmon-logs-Screenshot](../screenshots/sysmon-logs1.png)
+![Sysmon-logs-Screenshot](../screenshots/sysmon-logs2.png)
 
 ## 📁 Logs:
 Detailed logs are saved in the `logs/` folder.
