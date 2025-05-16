@@ -26,6 +26,8 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
    - `sysmonconfig-v2.xml`
 3. Opened **Command Prompt** as Administrator.
 4. Ran the following command to install Sysmon with the config file:
+
+```bash
 Sysmon64.exe -accepteula -i sysmonconfig-v2.xml
 5.Confirmed successful installation and verified the Sysmon service is running.
 
@@ -34,12 +36,16 @@ Opened:
 Event Viewer → Windows Logs → Security
 
 Observed the following Event IDs:
+
 4624 – Successful logon
+
 4672 – Special privileges assigned to new logon
 
 🖼️ Screenshots
 Sysmon installed successfully.
+
 Event Viewer displaying Event IDs 4624 and 4672.
+
 Additional screenshots of system logs and configurations.
 
 📁 Repository Structure
@@ -52,18 +58,20 @@ siem-internship-phase-1/
 ├── /screenshots/         # Screenshots of setup and events
 ├── writeups/
 └── README.md             # Documentation
-
 🧠 Learning Outcomes
 Understood the purpose and setup of Sysmon.
+
 Learned how to monitor important Windows Event IDs.
+
 Got hands-on experience with log collection and documentation.
 
 ✅ Phase 1 Checklist
  Windows VM created
- Sysmon installed with proper config
- Log generation confirmed via Event Viewer
- Screenshots uploaded
- Repository structured and documented.
 
+ Sysmon installed with proper config
+
+ Log generation confirmed via Event Viewer
+
+ Screenshots uploaded
 
 
