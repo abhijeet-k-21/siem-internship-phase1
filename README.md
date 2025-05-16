@@ -49,14 +49,14 @@ siem-internship-phase-1/
 
 │
 
-├── /logs/                # Exported logs
+├── /logs/                         # Exported logs
 
-├── /screenshots/         # Screenshots of setup and events
+├── /screenshots/                  # Screenshots of setup and events
 
 ├── writeups/
 
-└── README.md             # Documentation
-
+└── README.md                      # Documentation
+  
 ### 🧠 Learning Outcomes
 -  Understood the purpose and setup of Sysmon.
 -  Learned how to monitor important Windows Event IDs.
