@@ -30,9 +30,8 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
    
    5.Confirmed successful installation and verified the Sysmon service is running.
 
-### 🔹 2. Log Collection via Event Viewer
-Opened:
-Event Viewer → Windows Logs → Security
+### 🔹 2. Log Collection via Event Viewer Opened:
+ Event Viewer → Windows Logs → Security
 
 Observed the following Event IDs:
 
@@ -41,32 +40,34 @@ Observed the following Event IDs:
 
 
 ### 🖼️ Screenshots
-Sysmon installed successfully.
-
-Event Viewer displaying Event IDs 4624 and 4672.
-
-Additional screenshots of system logs and configurations.
+  -  Sysmon installed successfully.
+  -  Event Viewer displaying Event IDs 4624 and 4672.
+  -  Additional screenshots of system logs and configurations.
 
 ### 📁 Repository Structure
 
 siem-internship-phase-1/
+
 │
-├── /logs/                # Exported logs (if any)
+
+├── /logs/                # Exported logs
+
 ├── /screenshots/         # Screenshots of setup and events
+
 ├── writeups/
+
 └── README.md             # Documentation
 
 ### 🧠 Learning Outcomes
-Understood the purpose and setup of Sysmon.
-
-Learned how to monitor important Windows Event IDs.
-
-Got hands-on experience with log collection and documentation.
+-  Understood the purpose and setup of Sysmon.
+-  Learned how to monitor important Windows Event IDs.
+-  Got hands-on experience with log collection and documentation.
 
 ### ✅ Phase 1 Checklist
- Windows VM created
- Sysmon installed with proper config
- Log generation confirmed via Event Viewer
- Screenshots uploaded
- Repository structured and documented
+
+ -  Windows VM created
+ -  Sysmon installed with proper config
+ -  Log generation confirmed via Event Viewer
+ -  Screenshots uploaded
+ -  Repository structured and documented
 
