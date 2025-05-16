@@ -27,16 +27,15 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 3. Opened **Command Prompt** as Administrator.
 4. Ran the following command to install Sysmon with the config file:
    Sysmon64.exe -accepteula -i sysmonconfig-v2.xml
-   
-   5.Confirmed successful installation and verified the Sysmon service is running.
+ 5.Confirmed successful installation and verified the Sysmon service is running.
 
 ### 🔹 2. Log Collection via Event Viewer Opened:
- Event Viewer → Windows Logs → Security
+      Event Viewer → Windows Logs → Security
 
-Observed the following Event IDs:
+      Observed the following Event IDs:
 
-   -  4624 – Successful logon
-   -  4672 – Special privileges assigned to new logon
+       -  4624 – Successful logon
+       -  4672 – Special privileges assigned to new logon
 
 
 ### 🖼️ Screenshots
