@@ -30,9 +30,9 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
  5.Confirmed successful installation and verified the Sysmon service is running.
 
 ### 🔹 2. Log Collection via Event Viewer Opened:
-      Event Viewer → Windows Logs → Security
+   Event Viewer → Windows Logs → Security
 
-      Observed the following Event IDs:
+   Observed the following Event IDs:
 
        -  4624 – Successful logon
        -  4672 – Special privileges assigned to new logon
