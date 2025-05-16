@@ -40,42 +40,33 @@ Observed the following Event IDs:
    -  4672 – Special privileges assigned to new logon
 
 
-🖼️ Screenshots
+### 🖼️ Screenshots
 Sysmon installed successfully.
 
 Event Viewer displaying Event IDs 4624 and 4672.
 
 Additional screenshots of system logs and configurations.
 
-# 📁 Repository Structure
+### 📁 Repository Structure
 
 siem-internship-phase-1/
-
 │
-
 ├── /logs/                # Exported logs (if any)
-
 ├── /screenshots/         # Screenshots of setup and events
-
 ├── writeups/
-
 └── README.md             # Documentation
 
-# 🧠 Learning Outcomes
+### 🧠 Learning Outcomes
 Understood the purpose and setup of Sysmon.
 
 Learned how to monitor important Windows Event IDs.
 
 Got hands-on experience with log collection and documentation.
 
-✅ Phase 1 Checklist
+### ✅ Phase 1 Checklist
  Windows VM created
-
  Sysmon installed with proper config
-
  Log generation confirmed via Event Viewer
-
  Screenshots uploaded
-
  Repository structured and documented
 
