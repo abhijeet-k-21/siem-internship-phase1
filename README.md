@@ -76,7 +76,7 @@ siem-internship-phase-1/
 ├── /logs/                         # Exported logs
 
 ├── /screenshots/             
-                !/screenshots/4624-logs.png
+                !4624-logs.png
                 ![4672-logs-Screenshot](../screenshots/4672-logs.png)
                 ![4625-logs-Screenshot](../screenshots/4625-logs.png)
                 ![4625-logs2-Screenshot](../screenshots/4625-logs2.png)
