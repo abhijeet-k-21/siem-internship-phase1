@@ -63,9 +63,16 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 
 
 ### 🖼️ Screenshots
-  -  Sysmon installed successfully.
   -  Event Viewer displaying Event IDs 4624,4625 and 4672.
-  -  Additional screenshots of system logs and configurations.
+
+### 🔐 Event ID 4624 - Successful Logon
+![Event 4624](screenshots/event_4624.png)
+
+### ❌ Event ID 4625 - Failed Logon Attempt
+![Event 4625](screenshots/event_4625.png)
+
+### 🔑 Event ID 4672 - Special Privilege Assigned
+![Event 4672](screenshots/event_4672.png)
 
 ### 📁 Repository Structure
 
