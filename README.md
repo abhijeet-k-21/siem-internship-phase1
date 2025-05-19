@@ -78,7 +78,7 @@ siem-internship-phase-1/
 ├── /screenshots/             
                 ![4624-logs-Screenshot](../screenshots/4624-logs.png)
 ![4672-logs.png]
-![4625-logs-Screenshot](../screenshots/4625-logs.png)
+![(../screenshots/4625-logs.png)]
 ![4625-logs2-Screenshot](../screenshots/4625-logs2.png)
 
 ├── /sysmonconfig/                 #sysmonconfig-v2.xml
