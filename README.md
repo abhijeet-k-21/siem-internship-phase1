@@ -57,7 +57,7 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 |----------------------------------|-------------------------------------------------------------|
 | Brute Force Login Detection      | Multiple failed logins using Event ID 4625                 |
 | Successful Login After Brute Force | Tracked using Event ID 4624 after many 4625 entries      |
-| Failed Login Threshold Tracking  | Users with 10+ failed logins per day using Event ID 4625   |
+| Failed Login Threshold Tracking  | Users with 05+ failed logins per day using Event ID 4625   |
 | Basic Login Audit Trail          | Combination of 4624, 4625, and 4672                        |
 
 
