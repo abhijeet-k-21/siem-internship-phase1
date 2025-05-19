@@ -17,12 +17,13 @@
 Navigated to Event Viewer > Windows Logs > Security and observed the following Event IDs:
 - **4624** - Successful logon
 - **4672** - Special privileges assigned to new logon
+- **4625** - Failed logon
 
 ## 🖼️ Screenshot:
-![Sysmon-logs-Screenshot](../screenshots/sysmon-logs.png)
-![Sysmon-logss-Screenshot](../screenshots/sysmon-logss.png)
-![Sysmon-logs1-Screenshot](../screenshots/sysmon-logs1.png)
-![Sysmon-logs2-Screenshot](../screenshots/sysmon-logs2.png)
+![4624-logs-Screenshot](../screenshots/4624-logs.png)
+![4672-logs-Screenshot](../screenshots/4672-logs.png)
+![4625-logs-Screenshot](../screenshots/4625-logs.png)
+![4625-logs2-Screenshot](../screenshots/4625-logs2.png)
 
 ## 📁 Logs:
 Detailed logs are saved in the `logs/` folder.
