@@ -65,14 +65,15 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 ### 🖼️ Screenshots
   -  Event Viewer displaying Event IDs 4624,4625 and 4672.
 
-### 🔐 Event ID 4624 - Successful Logon
-![Event 4624](screenshots/event_4624.png)
+ 🔐 Event ID 4624 - Successful Logon
+![Event 4624](screenshots/4624-logs.png)
 
-### ❌ Event ID 4625 - Failed Logon Attempt
-![Event 4625](screenshots/event_4625.png)
+ ❌ Event ID 4625 - Failed Logon Attempt
+![Event 4625](screenshots/4625-logs.png)
+![Event 4625](screenshots/4625-logs2.png)
 
-### 🔑 Event ID 4672 - Special Privilege Assigned
-![Event 4672](screenshots/event_4672.png)
+ 🔑 Event ID 4672 - Special Privilege Assigned
+![Event 4672](screenshots/4672-logs.png)
 
 ### 📁 Repository Structure
 
