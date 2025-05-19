@@ -73,15 +73,15 @@ siem-internship-phase-1/
 
 │
 
-├── /logs/                         # Exported logs
+├── /logs/                       
 
 ├── /screenshots/             
              
-├── /sysmonconfig/                 #sysmonconfig-v2.xml
+├── /sysmonconfig/                 
 
 ├── writeups/
 
-└── README.md                      # Documentation
+└── README.md                    
   
 ### 🧠 Learning Outcomes
 -  Understood the purpose and setup of Sysmon.
