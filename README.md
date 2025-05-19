@@ -34,13 +34,37 @@ The goal of this phase is to set up a basic cybersecurity lab environment and us
 
       Observed the following Event IDs:
 
-       -  4624 – Successful logon
-       -  4672 – Special privileges assigned to new logon
+       ✅ Event ID 4624 – Successful Logon  
+            - Shows successful logon attempts  
+            - Screenshot saved as: `/screenshots/4624.png`  
+            - Log saved in: `/logs/4624-log.evtx`
+
+       ✅ Event ID 4672 – Special Privileges Assigned  
+            - Shows accounts assigned admin privileges on logon  
+            - Screenshot saved as: `/screenshots/4672.png`  
+            - Log saved in: `/logs/4672-log.evtx`
+
+       ✅ Event ID 4625 – Failed Logon  
+            - Captures failed login attempts (brute force tracking)  
+            - Screenshot saved as: `/screenshots/4625.png`  
+            - Log saved in: `/logs/4625-log.evtx`
+
+---
+
+## 🔐 Use Cases Addressed
+
+| Use Case                         | Description                                                 |
+|----------------------------------|-------------------------------------------------------------|
+| Brute Force Login Detection      | Multiple failed logins using Event ID 4625                 |
+| Successful Login After Brute Force | Tracked using Event ID 4624 after many 4625 entries      |
+| Failed Login Threshold Tracking  | Users with 10+ failed logins per day using Event ID 4625   |
+| Basic Login Audit Trail          | Combination of 4624, 4625, and 4672                        |
+
 
 
 ### 🖼️ Screenshots
   -  Sysmon installed successfully.
-  -  Event Viewer displaying Event IDs 4624 and 4672.
+  -  Event Viewer displaying Event IDs 4624,4625 and 4672.
   -  Additional screenshots of system logs and configurations.
 
 ### 📁 Repository Structure
